@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Titles -->
+    <sys:String x:Key="NextRace">下一场大奖赛</sys:String>
+    <sys:String x:Key="DriversStanding">车手积分榜</sys:String>
+    <sys:String x:Key="GrandPrixName">大奖赛名称</sys:String>
+    <sys:String x:Key="Location">地点</sys:String>
+    <sys:String x:Key="RaceTime">比赛时间</sys:String>
+    <sys:String x:Key="TrackMap">赛道图预览</sys:String>
+
+    <!-- Context menu -->
+    <sys:String x:Key="RefreshNow">立即刷新</sys:String>
+    <sys:String x:Key="Language">语言</sys:String>
+    <sys:String x:Key="EnableAutostart">启用开机自启</sys:String>
+    <sys:String x:Key="Exit">退出</sys:String>
+
+    <!-- Optional future keys -->
+    <sys:String x:Key="Practice1">练习赛 1</sys:String>
+    <sys:String x:Key="Practice2">练习赛 2</sys:String>
+    <sys:String x:Key="Practice3">练习赛 3</sys:String>
+    <sys:String x:Key="Qualifying">排位赛</sys:String>
+    <sys:String x:Key="Sprint">冲刺赛</sys:String>
+    <sys:String x:Key="Settings">设置</sys:String>
+
+    <sys:String x:Key="WeekendSchedule">比赛周赛程</sys:String>
+
+</ResourceDictionary>
