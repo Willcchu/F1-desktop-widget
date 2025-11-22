@@ -11,32 +11,8 @@
       "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\resources\\stringresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:resources\\stringresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\resources\\stringresources.zh-cn.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:resources\\stringresources.zh-cn.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\models\\driverstanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:models\\driverstanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\models\\wikipediaseason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:models\\wikipediaseason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\models\\wikidatadriverstanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:models\\wikidatadriverstanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:f1 widgets.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -50,41 +26,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WikipediaSeason.cs",
-              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Models\\WikipediaSeason.cs",
-              "RelativeDocumentMoniker": "Models\\WikipediaSeason.cs",
-              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Models\\WikipediaSeason.cs",
-              "RelativeToolTip": "Models\\WikipediaSeason.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBkAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "F1 widgets",
+              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
+              "RelativeDocumentMoniker": "F1 widgets.csproj",
+              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
+              "RelativeToolTip": "F1 widgets.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T01:29:15.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAB0CAAAAAAAAAAAUwC0CAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T22:13:14.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StringResources.zh-CN.xaml",
-              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.zh-CN.xaml",
-              "RelativeDocumentMoniker": "Resources\\StringResources.zh-CN.xaml",
-              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.zh-CN.xaml",
-              "RelativeToolTip": "Resources\\StringResources.zh-CN.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T21:24:00.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StringResources.xaml",
-              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.xaml",
-              "RelativeDocumentMoniker": "Resources\\StringResources.xaml",
-              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.xaml",
-              "RelativeToolTip": "Resources\\StringResources.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T20:39:45.11Z",
+              "WhenOpened": "2025-11-22T01:29:00.087Z",
               "EditorCaption": ""
             },
             {
@@ -96,81 +62,21 @@
               "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T19:59:52.865Z",
+              "WhenOpened": "2025-11-22T01:28:56.643Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswCsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T19:59:51.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DriverStanding.cs",
-              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Models\\DriverStanding.cs",
-              "RelativeDocumentMoniker": "Models\\DriverStanding.cs",
-              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Models\\DriverStanding.cs",
-              "RelativeToolTip": "Models\\DriverStanding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T21:00:45.342Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T20:42:15.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T20:42:47.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WikidataDriverStanding.cs",
-              "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Models\\WikidataDriverStanding.cs",
-              "RelativeDocumentMoniker": "Models\\WikidataDriverStanding.cs",
-              "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Models\\WikidataDriverStanding.cs",
-              "RelativeToolTip": "Models\\WikidataDriverStanding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T22:25:26.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "F1 widgets.csproj",
+              "Title": "F1 widgets",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
               "RelativeDocumentMoniker": "F1 widgets.csproj",
               "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
               "RelativeToolTip": "F1 widgets.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-15T20:43:30.306Z"
+              "WhenOpened": "2025-11-22T01:28:51.214Z",
+              "EditorCaption": ""
             }
           ]
         }

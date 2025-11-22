@@ -452,7 +452,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
-      "projectName": "F1 widgets",
+      "projectName": "F1widgets",
       "projectPath": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
       "packagesPath": "C:\\Users\\Willi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\obj\\",

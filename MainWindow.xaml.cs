@@ -501,24 +501,39 @@ namespace F1_widgets
 
         private void StartCountdownForNextSession(RaceSessions s)
         {
-            // 停止旧计时器
             _countdownTimer?.Stop();
 
-            // 构建所有可能的 session（按顺序）
-            var list = new List<(string name, string time)>
-    {
-        ("Practice 1", s.fp1),
-        ("Practice 2", s.fp2),
-        ("Practice 3", s.fp3),
-        ("Sprint Qualifying", s.qualifying), // 冲排可能取代 FP2
-        ("Sprint", s.sprint),
-        ("Qualifying", s.qualifying),
-        ("Race", s.race)
-    };
+            bool isSprint = !string.IsNullOrWhiteSpace(s.sprint);
+
+            List<(string name, string time)> list;
+
+            if (isSprint)
+            {
+                // SPRINT 周末
+                list = new List<(string, string)>
+        {
+            ("Practice 1", s.fp1),
+            ("Sprint Qualifying", s.qualifying),
+            ("Sprint", s.sprint),
+            ("Qualifying", s.qualifying),   // 主排位
+            ("Race", s.race)
+        };
+            }
+            else
+            {
+                // 普通周末
+                list = new List<(string, string)>
+        {
+            ("Practice 1", s.fp1),
+            ("Practice 2", s.fp2),
+            ("Practice 3", s.fp3),
+            ("Qualifying", s.qualifying),
+            ("Race", s.race)
+        };
+            }
 
             DateTime now = DateTime.Now;
 
-            // 找到下一个尚未进行的 session
             foreach (var item in list)
             {
                 var t = ParseAnyUtc(item.time);
@@ -526,22 +541,20 @@ namespace F1_widgets
 
                 var local = t.Value.ToLocalTime();
 
-                // 找到未来的 session
                 if (local > now)
                 {
                     _nextSessionLocal = local;
                     _nextSessionName = item.name;
 
-                    CountdownText.Text = $"{_nextSessionName} Countdown: calculating...";
-
+                    CountdownText.Text = $"{_nextSessionName} starts in …";
                     StartCountdownTimer();
                     return;
                 }
             }
 
-            // 没找到（全部结束）
             CountdownText.Text = "Season finished";
         }
+
 
         private void StartCountdownTimer()
         {
