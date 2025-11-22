@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:resources\\stringresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StringResources.xaml",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.xaml",
               "RelativeDocumentMoniker": "Resources\\StringResources.xaml",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StringResources.zh-CN.xaml",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.zh-CN.xaml",
               "RelativeDocumentMoniker": "Resources\\StringResources.zh-CN.xaml",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",
@@ -91,20 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAgDAAAAAAAAAADwvxIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADECAAAAAAAAAAAiwBIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T01:29:00.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "F1 widgets.csproj",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
               "RelativeDocumentMoniker": "F1 widgets.csproj",
