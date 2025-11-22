@@ -13,6 +13,7 @@
     <!-- Context menu -->
     <sys:String x:Key="RefreshNow">立即刷新</sys:String>
     <sys:String x:Key="Language">语言</sys:String>
+    <sys:String x:Key="CheckUpdates">检查更新</sys:String>
     <sys:String x:Key="EnableAutostart">启用开机自启</sys:String>
     <sys:String x:Key="Exit">退出</sys:String>
 

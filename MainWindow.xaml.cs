@@ -16,7 +16,7 @@ using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 
-
+using System.Reflection;
 
 
 
@@ -130,8 +130,7 @@ namespace F1_widgets
 
             this.Width = 340;
             this.Height = 520;
-            this.Left = 200;
-            this.Top = 200;
+            LoadWindowPosition();
             this.Topmost = false;
 
             _refreshTimer = new DispatcherTimer
@@ -143,6 +142,7 @@ namespace F1_widgets
             Loaded += async (_, __) =>
             {
                 await RefreshAllAsync();
+                _ = CheckForUpdatesAsync();
                 _refreshTimer.Start();
             };
         }
@@ -161,6 +161,14 @@ namespace F1_widgets
         {
             if (e.LeftButton == MouseButtonState.Pressed)
                 DragMove();
+
+            SaveWindowPosition();
+        }
+
+        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
+        {
+            SaveWindowPosition();
+            base.OnClosing(e);
         }
 
         // =============================
@@ -434,6 +442,21 @@ namespace F1_widgets
             catch { }
         }
 
+
+        // ========== GitHub Release DTO ==========
+        private class GitHubRelease
+        {
+            public string tag_name { get; set; }
+            public string html_url { get; set; }
+            public List<GitHubAsset> assets { get; set; }
+        }
+
+        private class GitHubAsset
+        {
+            public string name { get; set; }
+            public string browser_download_url { get; set; }
+        }
+
         // =============================
         // ========= 右键菜单 ==========
         // =============================
@@ -576,6 +599,206 @@ namespace F1_widgets
             };
 
             _countdownTimer.Start();
+        }
+
+
+
+        // 保存窗口位置
+        private void SaveWindowPosition()
+        {
+            try
+            {
+                string folder = Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                    "F1Widget");
+
+                Directory.CreateDirectory(folder);
+
+                string path = Path.Combine(folder, "window.json");
+
+                var data = new
+                {
+                    Left = this.Left,
+                    Top = this.Top
+                };
+
+                File.WriteAllText(path, JsonSerializer.Serialize(data));
+            }
+            catch { }
+        }
+
+        // 读取窗口位置
+        private void LoadWindowPosition()
+        {
+            try
+            {
+                string folder = Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                    "F1Widget");
+
+                string path = Path.Combine(folder, "window.json");
+
+                if (!File.Exists(path)) return;
+
+                var json = File.ReadAllText(path);
+                var data = JsonSerializer.Deserialize<WindowPos>(json);
+
+                if (data != null)
+                {
+                    this.Left = data.Left;
+                    this.Top = data.Top;
+                }
+            }
+            catch { }
+        }
+
+        private class WindowPos
+        {
+            public double Left { get; set; }
+            public double Top { get; set; }
+        }
+
+
+
+
+        // ===============================
+        //       GitHub 自动更新检查
+        // ===============================
+        private async Task CheckForUpdatesAsync(bool showNoUpdateMessage = false)
+        {
+            try
+            {
+                // TODO: 把这里换成你自己的 GitHub 用户名 和 仓库名
+                const string owner = "Willcchu";
+                const string repo = "F1-desktop-widget";   // 比如 "F1-widgets"
+
+                string apiUrl = $"https://api.github.com/repos/Willcchu/F1-desktop-widget/releases/latest";
+
+                using HttpClient client = new HttpClient();
+                client.DefaultRequestHeaders.UserAgent.ParseAdd("F1WidgetsUpdater/1.0");  // GitHub 必须要 UA
+
+                string json = await client.GetStringAsync(apiUrl);
+
+                var release = JsonSerializer.Deserialize<GitHubRelease>(
+                    json,
+                    new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+                if (release == null || string.IsNullOrWhiteSpace(release.tag_name))
+                {
+                    if (showNoUpdateMessage)
+                        MessageBox.Show("无法获取最新版本信息。", "检查更新", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                // tag_name 例如 "v1.1.0"
+                string latestTag = release.tag_name.TrimStart('v', 'V');
+
+                if (!Version.TryParse(latestTag, out var latestVersion))
+                {
+                    if (showNoUpdateMessage)
+                        MessageBox.Show("最新版本号格式无法解析。", "检查更新", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                Version localVersion = Assembly.GetExecutingAssembly().GetName().Version;
+
+                if (latestVersion <= localVersion)
+                {
+                    if (showNoUpdateMessage)
+                        MessageBox.Show($"当前已是最新版本：{localVersion}", "检查更新",
+                            MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
+                // 有新版本了
+                string msg =
+                    $"发现新版本：{latestVersion}\n" +
+                    $"当前版本：{localVersion}\n\n" +
+                    "是否自动下载并安装？";
+
+                if (MessageBox.Show(msg, "发现更新",
+                        MessageBoxButton.YesNo, MessageBoxImage.Information) != MessageBoxResult.Yes)
+                {
+                    return;
+                }
+
+                // 优先找 .exe 或 .msi 安装包
+                var asset = release.assets?
+                    .FirstOrDefault(a =>
+                        a.name.EndsWith(".exe", StringComparison.OrdinalIgnoreCase) ||
+                        a.name.EndsWith(".msi", StringComparison.OrdinalIgnoreCase));
+
+                if (asset == null)
+                {
+                    // 找不到安装包，退而求其次打开 Release 页面
+                    if (MessageBox.Show("未找到安装程序资源，是否打开发布页面手动下载？",
+                            "检查更新", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+                    {
+                        Process.Start(new ProcessStartInfo
+                        {
+                            FileName = release.html_url,
+                            UseShellExecute = true
+                        });
+                    }
+                    return;
+                }
+
+                await DownloadAndInstallAsync(asset.browser_download_url, asset.name);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("CheckForUpdatesAsync error: " + ex);
+
+                if (showNoUpdateMessage)
+                {
+                    MessageBox.Show("检查更新时出错。\n\n" + ex.Message,
+                        "检查更新", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+        }
+
+        // ===============================
+        //   下载安装程序并启动更新
+        // ===============================
+        private async Task DownloadAndInstallAsync(string url, string fileName)
+        {
+            try
+            {
+                string tempPath = Path.Combine(Path.GetTempPath(), fileName);
+
+                using HttpClient client = new HttpClient();
+                using var response = await client.GetAsync(url);
+                response.EnsureSuccessStatusCode();
+
+                await using (var fs = new FileStream(tempPath, FileMode.Create, FileAccess.Write, FileShare.None))
+                {
+                    await response.Content.CopyToAsync(fs);
+                }
+
+                MessageBox.Show("更新包下载完成，将启动安装程序，当前应用会关闭。",
+                    "更新", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = tempPath,
+                    UseShellExecute = true
+                });
+
+                // 关闭当前应用，让安装程序覆盖文件
+                Application.Current.Shutdown();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("下载或启动安装程序失败：\n\n" + ex.Message,
+                    "更新失败", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+
+        private async void CheckUpdateMenu_Click(object sender, RoutedEventArgs e)
+        {
+            // 手动检查更新时，把 showNoUpdateMessage 设为 true，有新没新都给用户反馈
+            await CheckForUpdatesAsync(showNoUpdateMessage: true);
         }
 
     }

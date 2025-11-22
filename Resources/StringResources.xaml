@@ -13,6 +13,7 @@
     <!-- Context menu -->
     <sys:String x:Key="RefreshNow">Refresh Now</sys:String>
     <sys:String x:Key="Language">Language</sys:String>
+    <sys:String x:Key="CheckUpdates">Check Updates</sys:String>
     <sys:String x:Key="EnableAutostart">Enable Autostart</sys:String>
     <sys:String x:Key="Exit">Exit</sys:String>
 

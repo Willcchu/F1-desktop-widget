@@ -42,6 +42,8 @@
                     <MenuItem Header="{DynamicResource EnableAutostart}"
                               Click="EnableAutostart_Click"/>
                     <Separator/>
+                    <MenuItem Header="{DynamicResource CheckUpdates}"
+                              Click="CheckUpdateMenu_Click"/>
                     <MenuItem Header="{DynamicResource Exit}"
                               Click="Exit_Click"/>
                 </ContextMenu>
