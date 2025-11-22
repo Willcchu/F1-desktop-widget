@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("F1 widgets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.1+def7cdb85b21af6dc604ce2244ab7a0958ee0468")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.1+bc7ad0e430f90bc35a31fe636a6bfd49c2de2e83")]
 [assembly: System.Reflection.AssemblyProductAttribute("F1 widgets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("F1 widgets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.4.1.0")]

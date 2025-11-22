@@ -1,0 +1,40 @@
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\F1 widgets.exe
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\F1 widgets.deps.json
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\F1 widgets.runtimeconfig.json
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\F1 widgets.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\F1 widgets.pdb
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\ExCSS.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\OpenTK.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\GLWpfControl.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\ShimSkiaSharp.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\SkiaSharp.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\SkiaSharp.Views.WPF.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\Svg.Custom.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\Svg.Model.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\Svg.Skia.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.csproj.AssemblyReference.cache
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\Resources\StringResources.baml
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\Resources\StringResources.zh-CN.baml
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets_MarkupCompile.cache
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets_MarkupCompile.lref
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\App.baml
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.g.resources
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.AssemblyInfoInputs.cache
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.AssemblyInfo.cs
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.csproj.CoreCompileInputs.cache
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.sourcelink.json
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.csproj.Up2Date
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.dll
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\refint\F1 widgets.dll
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.pdb
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\F1 widgets.genruntimeconfig.cache
+C:\Users\Willi\source\repos\F1 widgets\obj\Debug\net10.0-windows\ref\F1 widgets.dll
