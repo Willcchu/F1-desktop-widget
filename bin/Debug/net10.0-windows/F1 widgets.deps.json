@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "F1 widgets/1.4.1": {
+      "F1 widgets/1.4.2": {
         "dependencies": {
           "SkiaSharp.Views.WPF": "3.119.1",
           "Svg.Skia": "3.2.1"
@@ -154,7 +154,7 @@
     }
   },
   "libraries": {
-    "F1 widgets/1.4.1": {
+    "F1 widgets/1.4.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

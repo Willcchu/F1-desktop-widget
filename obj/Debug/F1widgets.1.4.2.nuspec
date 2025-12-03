@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>F1widgets</id>
+    <version>1.4.2</version>
+    <authors>F1 widgets</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="15feb16310ccba7dbf2732f80fcd075f0f42d5c8" />
+    <dependencies>
+      <group targetFramework="net10.0-windows7.0">
+        <dependency id="SkiaSharp.Views.WPF" version="3.119.1" exclude="Build,Analyzers" />
+        <dependency id="Svg.Skia" version="3.2.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net10.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\F1 widgets.runtimeconfig.json" target="lib\net10.0-windows7.0\F1 widgets.runtimeconfig.json" />
+    <file src="C:\Users\Willi\source\repos\F1 widgets\bin\Debug\net10.0-windows\F1 widgets.dll" target="lib\net10.0-windows7.0\F1 widgets.dll" />
+  </files>
+</package>
