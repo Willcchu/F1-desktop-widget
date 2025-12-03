@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("F1 widgets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.1+17c1c84f379684919fa7381234e61d5b1f959128")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.2+76c040fcd885427c038373d3b5eaf62680d67f17")]
 [assembly: System.Reflection.AssemblyProductAttribute("F1 widgets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("F1 widgets")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.4.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.4.2.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
