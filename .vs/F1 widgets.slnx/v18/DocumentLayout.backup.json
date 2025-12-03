@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\resources\\stringresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:resources\\stringresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\resources\\stringresources.zh-cn.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:resources\\stringresources.zh-cn.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\resources\\stringresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:resources\\stringresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:f1 widgets.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:f1 widgets.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|c:\\users\\willi\\source\\repos\\f1 widgets\\f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A897AB2C-E9A9-931C-AB9B-49F58204E248}|F1 widgets.csproj|solutionrelative:f1 widgets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,29 +38,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "StringResources.xaml",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.xaml",
               "RelativeDocumentMoniker": "Resources\\StringResources.xaml",
               "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.xaml",
               "RelativeToolTip": "Resources\\StringResources.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-22T21:01:06.311Z"
+              "WhenOpened": "2025-11-22T21:01:06.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "StringResources.zh-CN.xaml",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.zh-CN.xaml",
               "RelativeDocumentMoniker": "Resources\\StringResources.zh-CN.xaml",
               "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\Resources\\StringResources.zh-CN.xaml",
               "RelativeToolTip": "Resources\\StringResources.zh-CN.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-22T21:01:04.143Z"
+              "WhenOpened": "2025-11-22T21:01:04.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,11 +74,12 @@
               "RelativeToolTip": "AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:25:42.831Z"
+              "WhenOpened": "2025-11-22T20:25:42.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "F1 widgets",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
               "RelativeDocumentMoniker": "F1 widgets.csproj",
@@ -88,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAI8BAAAAAAAAAAAiwBIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACIDAAAAAAAAAAAswD0DAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T01:29:00.087Z",
               "EditorCaption": ""
@@ -108,11 +111,12 @@
               "ToolTip": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-22T01:28:56.643Z"
+              "WhenOpened": "2025-11-22T01:28:56.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "F1 widgets.csproj",
               "DocumentMoniker": "C:\\Users\\Willi\\source\\repos\\F1 widgets\\F1 widgets.csproj",
               "RelativeDocumentMoniker": "F1 widgets.csproj",
@@ -120,8 +124,7 @@
               "RelativeToolTip": "F1 widgets.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-22T01:28:51.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T01:28:51.214Z"
             }
           ]
         }

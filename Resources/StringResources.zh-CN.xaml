@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- Titles -->
-    <sys:String x:Key="NextRace">下一场大奖赛</sys:String>
+    <sys:String x:Key="NextRace">一级方程式赛车日历</sys:String>
     <sys:String x:Key="DriversStanding">车手积分榜</sys:String>
     <sys:String x:Key="GrandPrixName">大奖赛名称</sys:String>
     <sys:String x:Key="Location">地点</sys:String>

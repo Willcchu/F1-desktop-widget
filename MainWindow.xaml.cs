@@ -434,10 +434,28 @@ namespace F1_widgets
 
             try
             {
-                var bitmap = new BitmapImage(new Uri(candidates.First()));
-                TrackImage.Source = bitmap;
-                TrackImage.Visibility = Visibility.Visible;
-                TrackPlaceholderText.Visibility = Visibility.Collapsed;
+                string filePath = candidates.First();
+
+                // **【关键修复点】使用 FileStream 和 CacheOption.OnLoad 来解决文件锁定问题**
+                // FileShare.Read 允许其他进程读取该文件
+                using (var stream = File.Open(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+                {
+                    var bitmap = new BitmapImage();
+                    bitmap.BeginInit();
+                    // 确保图片数据被完整加载到内存后，文件句柄被释放
+                    bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                    bitmap.StreamSource = stream;
+                    bitmap.EndInit();
+
+                    // 冻结 BitmapImage 提高性能
+                    if (bitmap.CanFreeze)
+                    {
+                        bitmap.Freeze();
+                    }
+                    TrackImage.Source = bitmap;
+                    TrackImage.Visibility = Visibility.Visible;
+                    TrackPlaceholderText.Visibility = Visibility.Collapsed;
+                }
             }
             catch { }
         }
@@ -582,9 +600,12 @@ namespace F1_widgets
         private void StartCountdownTimer()
         {
             _countdownTimer = new DispatcherTimer();
+            // 确保每秒更新一次
             _countdownTimer.Interval = TimeSpan.FromSeconds(1);
+
             _countdownTimer.Tick += (s, e) =>
             {
+                // 假设 _nextSessionLocal 是下一节比赛的本地时间
                 TimeSpan diff = _nextSessionLocal - DateTime.Now;
 
                 if (diff.TotalSeconds <= 0)
@@ -594,8 +615,26 @@ namespace F1_widgets
                     return;
                 }
 
-                CountdownText.Text =
-                    $"{_nextSessionName} starts in {diff.Hours:D2}:{diff.Minutes:D2}:{diff.Seconds:D2}";
+                // --- 核心修改部分：计算和格式化天、时、分、秒 ---
+
+                // 1. 获取总天数 (TotalDays) 并向下取整
+                int days = (int)Math.Floor(diff.TotalDays);
+
+                // 2. 获取剩余的小时、分钟和秒
+                // TimeSpan.Hours/Minutes/Seconds 属性只会返回小于一天/一小时/一分钟的部分。
+                int hours = diff.Hours;
+                int minutes = diff.Minutes;
+                int seconds = diff.Seconds;
+
+                // 3. 格式化输出：格式为 "X Days, HH:MM:SS"
+                // 使用三元运算符来处理 Days 的单数/复数显示
+                string daysUnit = days == 1 ? "Day" : "Days";
+
+                string countdownDisplay = $"{days} {daysUnit}, {hours:D2}:{minutes:D2}:{seconds:D2}";
+
+                CountdownText.Text = $"{_nextSessionName} starts in {countdownDisplay}";
+
+                // --- 结束核心修改部分 ---
             };
 
             _countdownTimer.Start();

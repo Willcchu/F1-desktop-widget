@@ -102,8 +102,9 @@
                         Background="#22000000">
                     <Grid>
                         <Image x:Name="TrackImage"
-                               Stretch="Uniform"
-                               Margin="4"
+                               Stretch="Fill"
+                               Margin="-2"
+                               
                                Visibility="Collapsed"/>
                         <TextBlock x:Name="TrackPlaceholderText"
                                    Text="{DynamicResource TrackMap}"
